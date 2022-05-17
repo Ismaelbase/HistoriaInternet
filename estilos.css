@@ -1,30 +1,52 @@
 header h1{
 	text-align: center;
 	font-size: 3rem;
+	color: 	white;
 }
 
 body{
-	width: 100%;
 	margin: 0px;
 	padding: 0px;
 	font-family: Sans-Serif;
+  background:
+        linear-gradient(217deg, rgba(38,110,173,0.8), rgba(0,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(38,164,173,0.8), rgba(0,0,0,0) 70.71%),
+        linear-gradient(336deg, rgba(38,137,173,0.8), rgba(0,0,0,0) 70.71%);
+}
+h1{
+	text-shadow: white 2px 0 7px;
 }
 main{
 	margin: auto;
-	width: 85%;
+	width: 80%;
+	border: 4px double rgba(43,122,164,0.58);
+	border-radius: 13px;
+	box-shadow: 0 0 10px 5px white;
+	 background:
+        linear-gradient(217deg, rgba(230,238,245,0.8), rgba(0,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(244,230,245,0.8), rgba(0,0,0,0) 70.71%),
+        linear-gradient(336deg, rgba(245,237,230,0.8), rgba(0,0,0,0) 70.71%);
 }
+
+
 #indice{
-	padding-left: 10rem;
+	
 	font-size: 1.3rem;
 }
 #indice li{
 	padding-bottom: 2rem;
-
+}
+#indice h2{
+	text-align: center;
+	font-size: 3rem;
+	-webkit-text-stroke: 0.5px white;
+	color: #40A6FF;
+	text-shadow: #5696cf 1px 0 10px;
 }
 a{
 	text-decoration: none;
 	font-size: 1.4rem;
-	color: #0074D9;
+	color: #40A6FF;
 }
 ul{
 	list-style: none;
@@ -51,6 +73,11 @@ ul{
 }
 #p1 h2{
 	font-size: 2.1rem;
+	text-align: center;
+	color: #40A6FF;
+	-webkit-text-stroke: 0.5px white;
+	text-shadow: #5696cf 1px 0 10px;
+	font-size: 2.7rem;
 }
 #grid1{
 	display: grid;
@@ -71,23 +98,6 @@ img[src="img/bp2.png"],img[src="img/bp3.png"]{
 	margin-right: 1rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-*{
-  font-family: 'Poppins', sans-serif;
-}
-
-
-body{
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #fafafa;
-}
-
-
 
 
 .animacion1{
@@ -100,7 +110,7 @@ body{
   right: 0;
   width: 0;
   height: 2px;
-  background-color: #0074D9;
+  background-color: #40A6FF;
   transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
