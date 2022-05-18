@@ -88,6 +88,12 @@ article a:hover{
 	font-size: 1.4rem;
 	color: #40A6FF;
 }
+.lista3 a{
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #40A6FF;
+}
+
 ul{
 	list-style: none;
 }
@@ -107,6 +113,7 @@ ul{
 	width: 23%;
 	padding-left: 10rem;
 }
+
 
 p{
 	font-size: 1.2rem;
@@ -137,7 +144,12 @@ h3{
 	text-shadow: white 1px 0 10px;
 	margin-left: 6rem;
 }
-
+h4{
+	font-size: 1.5rem;
+	color: #1e4b72;
+	text-shadow: white 1px 0 10px;
+	margin-left: 6rem;
+}
 img[src="img/bp1.png"]{
 	width: 1%;
 }
