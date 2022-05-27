@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="estilos.css">
 	<title>Nacimiento y Evolución de Internet.</title>
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/dogica" type="text/css"/>
 </head>
 <body>
 	<header>
@@ -15,18 +16,20 @@
 			<h2>Índice</h2>
 			<article>
 			<ul id="lista1">
-				<li><a href=""><img src="img/bp2.png" alt=""><span class="animacion1">¿Qué es Internet?</span></a></li>
-				<li><a href=""><img src="img/bp2.png" alt=""><span class="animacion1">¿Cómo nace una red de redes?</span></a></li>
-				<li><a href=""><img src="img/bp2.png" alt=""><span class="animacion1">Evolución de internet.</span></a>
+				<li><a class="animacion" href="#p1"><img src="img/bp2.png" alt=""><span class="animacion1">¿Qué es Internet?</span></a></li>
+				<li><a href="#p2"><img src="img/bp2.png" alt=""><span class="animacion1">¿Cómo nace una red de redes?</span></a></li>
+				<li><a href="#p3"><img src="img/bp2.png" alt=""><span class="animacion1">Evolución de internet.</span></a>
 					<ul id="lista2">
-						<li><a href=""><img src="img/bp3.png" alt=""><span class="animacion1">Primeros pasos.</span></a></li>
-						<li><a href=""><img src="img/bp3.png" alt=""><span class="animacion1">Modernización.</span></a></li>
-						<li><a href=""><img src="img/bp3.png" alt=""><span class="animacion1">Popularización.</span></a></li>
-						<li><a href=""><img src="img/bp3.png" alt=""><span class="animacion1">El futuro de internet.</span></a></li>
+						<li><a href="#p3"><img src="img/bp3.png" alt=""><span class="animacion1">Primeros pasos.</span></a></li>
+						<li><a href="#modernizacion"><img src="img/bp3.png" alt=""><span class="animacion1">Modernización.</span></a></li>
+						<li><a href="#pop"><img src="img/bp3.png" alt=""><span class="animacion1">Popularización.</span></a></li>
+						<li><a href="#fut"><img src="img/bp3.png" alt=""><span class="animacion1">El futuro de internet.</span></a></li>
 					</ul>
+
 				</li>
 				
 			</ul>
+			<li id="webg"><a href="#webgra"><img src="img/bp2.png" alt=""><span class="animacion1">Webgrafía.</span></a>
 			</article>
 		</section>
 		<section id="contenido">
@@ -86,7 +89,7 @@
 					Como casi todo, internet nació a partir de una necesidad, en este caso, la necesidad de transmitir y asegurar información. En el año 1962 la compañía telefónica BELL comercializó el primer módem capaz de transmitir 300 bits de información por segundo usando la mayor infraestructura de transmisión de información de la época, las líneas telefónicas y telegráficas. Este módem fue desarrollado a petición de la NORAD (North American Aerospace Defence) ya que tras descubrir ese mismo año que en Rusia consiguió poner misiles en Cuba al alcance de EEUU querían estar preparados para un ataque a los puntos más importantes de la defensa del país, los centros de datos y comunicaciones, aunque en este año solo pondrían en marcha las investigaciones sobre cómo hacerlo, el proceso para conseguirlo fue encomendado a ARPA (Advanced Research Projects Agency), uno de los muchos departamentos de defensa de Estados Unidos. 
 				</p>
 				<div id="flotante">
-					<p>Evolución de Arpanet en los años 1969-1982.</p>
+					<p>Arpanet en los años 1969-1982.</p>
 					<a href="https://pbs.twimg.com/media/FIBHzVqXwAMyNLR.jpg" target="_blank"><img class="float" src="img/arpanet2.png" alt="Mapa que muestra localizaciones de ordenadores conectados a Arpanet en los años 1969 y 1982."></a>
 				</div>
 				<p>
@@ -124,7 +127,7 @@
 				<p>
 					Como has podido ver en los enlaces navegar por internet no tenía nada que ver con lo sencillo e intuitivo que es hoy, de hecho, una de las principales problemáticas de la época era que el navegador principal de la web solo funcionaba en sistemas Unix y además no disponía de una interfaz gráfica como las conocemos hoy ni de buscador de páginas webs, a pesar de todo esto un año más tarde, la popularidad y el uso de Internet explotó, llegando al millón de computadoras conectadas, a pesar de ello, el uso de internet seguiría siendo considerado un nicho hasta su modernización en los años posteriores.
 				</p>
-				<h3>2. Modernización.</h3>
+				<h3 id="modernizacion">2. Modernización.</h3>
 				<p>
 					En enero de 1993 el National Center for Supercomputing Applications (NCSA) creó Mosaic, el primer navegador web con un entorno gráfico disponible para visualizar páginas web basado en Unix, poco después fue liberado y se crearon versiones para dispositivos Microsoft Windows y Macintosh entre otros.
 				</p>
@@ -172,7 +175,7 @@
 				<p>
 					También existe lo conocido como internet académica invisible, se trata de un conjunto de bases de datos académicos que no es posible encontrar por motores de búsqueda convencionales. Un ejemplo de sitio web académico grande al que no se puede acceder de manera convencional es la base de datos del famoso dispositivo de amazon Alexa, una base de datos conectada a internet, a la que no se puede acceder de manera corriente y que tiene más de 15.000 GBs de información.. 
 				</p>
-				<h3>3. Popularización.</h3>
+				<h3 id="pop">3. Popularización.</h3>
 				<p>
 					Para cuando nació el motor de búsqueda más popular de la historia, Google en 1998, ya había más de diez millones de computadoras conectadas a Internet.  La popularidad de Google creció rápidamente gracias al nuevo enfoque que le dió a su buscador, el cual le aplicaba a la búsqueda un algoritmo al que llamaron “PageRank” que era capaz de ordenar por relevancia el contenido resultante,, esto automáticamente se convirtió en un estándar para todos los motores de búsqueda, aceptando que no era práctico revisar listas completas de resultados sin ordenar. 
 				</p>
@@ -231,7 +234,7 @@
 				<p>
 					Puedes encontrar una <a class="animacion1" target="_blank" href="https://images.squarespace-cdn.com/content/v1/5b79011d266c077298791201/be6fda3b-ba41-46c6-b4a2-03cbd4da4a98/Reasons+for+Using+the+Internet+January+2022+DataReportal">lista más exaustiva aquí</a>.
 				</p>
-				<h3>4. El futuro de internet.</h3>
+				<h3 id="fut">4. El futuro de internet.</h3>
 				<p>
 					Intentar predecir todo lo que internet cambiará sobre nuestra sociedad y formas de actuar actuales es casi imposible, pero sí que podemos vislumbrar ciertos caminos a los que se dirige y que probablemente ocurran tarde o temprano. 
 				</p>
@@ -250,7 +253,7 @@
 			</article>
 		</section>
 		<section>
-			<h2>Webgrafía</h2>
+			<h2 id="webgra">Webgrafía</h2>
 			<h3>¿Qué es Internet?</h3>
 			<ul class="lista3">
 				<li>
@@ -340,7 +343,7 @@
 					<a class="animacion1" target="_blank" href="https://quod.lib.umich.edu/j/jep/3336451.0007.104?view=text;rgn=main">https://quod.lib.umich.edu</a>
 				</li>
 			</ul>
-			<h4>3. Popularización</h4>
+			<h4 >3. Popularización</h4>
 			<ul class="lista3">
 				<li>
 					<img src="img/bp1.png" alt="">

@@ -5,6 +5,7 @@ header h1{
 }
 
 body{
+
 	margin: 0px;
 	padding: 0px;
 	font-family: Sans-Serif;
@@ -15,17 +16,21 @@ body{
 }
 h1{
 	text-shadow: white 2px 0 7px;
+
 }
 main{
+	cursor: url('img/cursor1.png'), auto;
+
 	margin: auto;
 	width: 70%;
 	border: 4px double rgba(43,122,164,0.58);
 	border-radius: 13px;
 	box-shadow: 0 0 10px 5px white;
-	 background:
-        linear-gradient(217deg, rgba(230,238,245,0.8), rgba(0,0,0,0) 70.71%),
-        linear-gradient(127deg, rgba(244,230,245,0.8), rgba(0,0,0,0) 70.71%),
-        linear-gradient(336deg, rgba(245,237,230,0.8), rgba(0,0,0,0) 70.71%);
+	 background:white;
+
+}
+a{
+	cursor: url('img/cursor2.png'), auto;
 }
 
 .float{
@@ -33,6 +38,11 @@ main{
 	width: 40%;
 	padding: 1rem;
 
+}
+
+#webg{
+	text-align: center;
+	list-style: none;
 }
 
 #flotante{
@@ -52,7 +62,11 @@ main{
 	padding: 0px;
 	margin: 0px;
 	color: #611E99;
+	font-family: 'DogicaPixelRegular';
+	font-size: 1rem;
+	text-align: center;
 	font-weight: bold;
+	line-height: 1.2rem;
 }
 #navegador_texto img.float{
 	width: 15%;
@@ -221,7 +235,7 @@ img[src="img/bp2.png"],img[src="img/bp3.png"]{
     right: auto;
     width: 100%;
   }
-
+  
 
   
 }
